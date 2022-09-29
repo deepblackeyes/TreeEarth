@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 공용css */
+
+*{margin: 0; padding: 0;}
+li{list-style: none; padding-left:0px;}
+a{text-decoration: none; color: black;}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* 헤더 사진 */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* 백그라운드0 */
+#main_back0{
+	position: absolute;
+	background-color: #e8e8c2;
+/* 	background-color: white; */
+	width: 100%;
+	height: 4000px;
+	box-sizing: border-box;
+	z-index: 3;
+/* 	border: 5px solid red; */
+
+}
+
+
+/* 백그라운드 커버 상단 */
+#main_back1{
+	position: absolute;
+	background-color: #e8e8c2;
+/* 	background-color: white; */
+	width: 100%;
+	height: 2000px;
+	box-sizing: border-box;
+	z-index: 3;
+/* 	border: 5px solid green; */
+}
+
+
+/* 고정 사진 */
+#main_fixed{
+	position: fixed;
+	top: 0px;
+
+	z-index: 1;
+	width: 100%;
+	height: auto;
+/* 	border: 5px solid orange; */
+}
+
+/* 백그라운드 커버 하단*/
+#main_back2{
+	position: absolute;
+	background-color: #e8e8c2;
+	width: 100%;
+	height: 1500px;
+	box-sizing: border-box;
+	z-index: 3;
+/* 	border: 5px solid blue; */
+	top: 2500px;
+		
+}
+/* 이미지 */
+/* #main_img{ */
+/* 	border: 5px solid orange; */
+/* 	position: absolute; */
+/* 	z-index: 2; */
+/* } */
+
+/* 하-이 문구 */
+#main_fixed2{
+
+	position: fixed;
+	z-index: 4;
+	width: 1000px;
+	height: auto;
+	top: 500px;
+	left: 800px;
+	font-size: 100px
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* 캠페인 슬라이드 배너 */
+.slider{
+    width: 1000px;;
+    height: 430px;
+    position: relative;
+    margin: 0 auto;
+}
+.slider input[type=radio]{
+    display: none;
+}
+ul.imgs{
+    padding: 0;
+    margin: 0;
+}
+ul.imgs li{
+    position: absolute;
+    opacity: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition-delay: 0.9s;
+     
+}
+.bullets{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 2;
+}
+.bullets label{
+    display: inline-block;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.55);
+    width: 20px;
+    height: 3px;
+    cursor: pointer;
+    margin: 7px 3px 7px 3px;
+    opacity: 0.5px;
+}
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+    background-color: #fff;
+}
+
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
+.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
+
+.main_forest{
+	 width:100%; 
+	 height:1100px; 
+	 background-color: white;
+	 position: absolute; 
+	 z-index: 1; 
+	 overflow: hidden; 
+	 text-align: center;
+}
+
+.main_forest > h1{
+	position: absolute;  
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	font-family: 'GangwonEduPowerExtraBoldA';
+	font-size: 50px;
+	display: block;
+	color: white;
+	z-index: 5;	
+	letter-spacing: 1px;
+	margin: 15 auto
+	
+}
+
+.main_forest > h2{
+	position: absolute;  
+	top: 56%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+    font-family: 'HallymGothic-Regular';
+	font-size: 25px;
+	display: block;
+	color: white;
+	z-index: 5;	
+	letter-spacing: 1px;
+	margin: 15 auto;
+}
+
+.main_forest > a{
+	position: absolute;  
+	top: 67%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+    font-family: 'HallymGothic-Regular';
+	font-size: 20px;
+	display: block;
+	color: white;
+	z-index: 5;	
+	letter-spacing: 1px;
+	border: 2px solid white;
+	margin:10px auto;
+	padding: 20px;
+	width: 180px;
+	text-align: center;
+	
+}
+
+
+.backGraound{
+	width:100%; 
+	height:1100px; 
+	background-color: black; 
+	position: absolute;
+	z-index: 2; 
+	opacity: 0.33;
+}

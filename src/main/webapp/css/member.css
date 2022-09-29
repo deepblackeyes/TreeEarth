@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* 한림예고 */
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* 공용css */
+*{padding: 0; margin: 0;     font-family: 'HallymGothic-Regular';
+}
+li{list-style: none; padding-left:0px;}
+a{text-decoration: none; color: black;}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/*  */
+
+hr{
+	width: 70%;
+	opacity: 0.3;
+	margin: 25px;
+}
+
+.login_main{
+	
+	font-family: 'HallymGothic-Regular';
+	text-align: center;
+}
+
+.login_back{
+	background-color: #dcdcdc;
+	margin: 15px;
+	text-align: center;
+	border-radius: 5px;
+	height: 580px;
+}
+
+.login_input{
+	margin:5px;
+	width: 280px;
+	height: 35px;
+}
+
+.login_button {
+	margin:5px;
+	width: 140px;
+	height: 35px;
+	margin-bottom: 30px;
+}
+
+/* 컨텐트 디브 */
+.contnet_div{
+	margin: 15px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* 아이디, 비밀번호 찾기 */
+
+#find_main{
+/* 	border: 5px solid red; */
+	position: relative;
+	margin: 35px;
+}
+
+#find_title{
+/* 	border: 5px solid orange; */
+	width: 100%;
+	height: 15%;
+	margin: 30px;
+}
+
+#find_radio{
+/* 	border: 5px solid green; */
+	width: 100%;
+	height: 10%;
+	margin: 20px;
+}
+
+#find_result{
+/* 	border: 5px solid blue; */
+	position: relative;
+	width: 100%;
+	height: 60%;
+	margin: 20px;
+	right: 40px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* 회원가입*/
+
+#mem_main_div{
+	position: relative;
+	width: 45%;
+/* 	border: 5px solid red; */
+	box-sizing: border-box;
+	height: 700px;
+	margin: 0 auto;
+	
+}
+
+
+.mem_margin{
+	
+	margin: 40px;
+}
+
+
+.mem_margin > div{
+
+	margin-bottom: 20px; 
+	
+}
+
+.mem_margin > div > span{
+	display: inline-block;
+	width: 100px; 
+
+}
+
+.mem_margin > div > div{
+	display: inline-block;
+	width: 330px;
+	margin: 5px;
+}
+
+.mem_margin > input, .mem_margin > form > input{
+	margin-left: 10px; 
+}
+
+
+/* 가입절차 */
+.location > div{
+	display: inline-block;
+	border: 7px solid ;
+	border-radius: 30%;
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	padding: 30px;
+	
+}
+

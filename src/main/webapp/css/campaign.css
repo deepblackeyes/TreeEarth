@@ -1,0 +1,166 @@
+@charset "EUC-KR";
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* 공용css */
+
+*{margin: 0; padding: 0;}
+ul{list-style: none; padding-left: 0;}
+a{text-decoration: none; color:black;}
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* 캠페인  */
+
+.cam_img_div1{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow:hidden;
+	text-align: center;
+}
+
+
+
+.cam_sub_img{
+	 position: absolute;
+	 width: 100%;
+	 filter: blur(5px);
+ 	 -webkit-filter: blur(5px);
+ 	 top: -100px;
+	
+}
+
+/* 캠페인 서브젝트 */
+.cam_sub_span{
+	position: absolute;
+	font-family: 'GangwonEduPowerExtraBoldA';
+	font-size: 60px;
+   	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+}
+
+.cam_img_div2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+ 	 margin: 300px 0px 70px 0px; 
+ }
+
+.cam_img_div2 > img{
+
+}
+
+.cam_main_div{
+	text-align: center;
+}
+
+ /* ---------------------------------------------------------------------------------------------------- */
+  
+/* 캠페인 공고 작성 폼 */
+#back {
+   padding: 2rem;
+   background-color: hsl(0,0%,95%);
+} 
+
+#writeForm{
+	width: 500px;
+	padding: 10px;
+	margin: 45px auto 25px auto;
+	text-align: center;
+}
+
+#writeForm h2{
+	text-align: center;
+	padding: 20px;
+}
+
+#cam_form {
+    max-width: 30rem;
+    margin: 0 auto;
+	padding: 1.5rem 2rem; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+#table_from input{
+	 outline: 0;
+	 background: #ffffff;
+	 width: 100%;
+	 border: 0;
+	 padding: 15px;
+	 box-sizing: border-box;
+	 font-size: 15px;
+}
+
+#commandCell{
+	text-align: center;
+}
+
+/* 캠페인 참가 신청서 폼 */
+#back{
+    background-color: hsl(0,0%,95%);
+}
+
+* {-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  
+#container{
+	width: 550px;
+  	padding: 20px;
+  	margin: 45px auto 25px auto;
+}
+
+#container h1{
+	text-align: center;
+	padding: 20px;
+}
+ 
+.cam_form {
+    max-width: 30rem;
+    margin: 0 auto;
+	padding: 1.5rem 2rem; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+#table_form input {
+	 outline: 0;
+	 background: #ffffff;
+	 width: 100%;
+	 border: 0;
+	 padding: 15px;
+	 box-sizing: border-box;
+	 font-size: 15px;
+}
+
+
+/* 지원하기 버튼 모양*/
+#cam_button{
+	text-align: center;
+}
