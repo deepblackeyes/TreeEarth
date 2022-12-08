@@ -57,3 +57,5 @@
 •후원 목록 내 결제 진행률, 디데이 표시, 맨 위로 올라가기 버튼
 ![화면 캡처 2022-10-11 164107](https://user-images.githubusercontent.com/103393439/206125930-3be5a226-d1aa-4a84-ab6e-f367673e602c.jpg)
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdeepblackeyes%2FTreeEarth&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
